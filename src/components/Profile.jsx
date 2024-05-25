@@ -1,5 +1,5 @@
 import React from "react";
-import {FaLinkedin, FaGithub, FaArrowDown } from "react-icons/fa"
+import { FaLinkedin, FaGithub, FaArrowDown } from "react-icons/fa"
 
 const Profile = () => {
 
