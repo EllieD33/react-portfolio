@@ -6,8 +6,9 @@ const Header = ({ darkMode, setDarkMode }) => {
         <nav className="flex justify-between items-center p-5">
             <h1 className="text-4xl">Ellen Daly</h1>
             <div onClick={() => setDarkMode(!darkMode)}>
-                <MdNightlightRound className="text-2xl cursor-pointer"/>
-                <MdWbSunny className="text-2xl cursor-pointer"/>
+                {
+                    darkMode ? <MdWbSunny className="text-2xl cursor-pointer"/> : <MdNightlightRound className="text-2xl cursor-pointer"/>
+                }
             </div>
         </nav>
     </header>
