@@ -29,7 +29,7 @@ const Contact = () => {
           <textarea className={inputStyles} id="message" type="text" placeholder="Your message here..." rows="5"/>
         </div>
         <div className="flex">
-          <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline flex-grow" type="button">
+          <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded  flex-grow" type="submit">
             Send
           </button>
         </div>
