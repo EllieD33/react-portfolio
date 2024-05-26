@@ -19,7 +19,7 @@ const Profile = () => {
     window.addEventListener('scroll', function () {
         const downArrow = document.querySelector('.down-arrow');
 
-        if (this.scrollY >= 50) downArrow.classList.add("hide-down-arrow");
+        if (this.scrollY >= 40) downArrow.classList.add("hide-down-arrow");
         else downArrow.classList.remove("hide-down-arrow");
     })
 
