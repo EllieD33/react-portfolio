@@ -1,6 +1,6 @@
 import React from "react";
 import { FaJs, FaNodeJs, FaReact, FaGitAlt, FaHtml5, FaBootstrap, FaCss3Alt } from "react-icons/fa";
-import { DiPostgresql } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { SiExpress, SiTailwindcss } from "react-icons/si";
 import Section from "./common/Section";
 
@@ -21,7 +21,7 @@ const Skills = () => {
         },
         {
             id: 3,
-            icon: <DiPostgresql className={iconStyles}/>,
+            icon: <BiLogoPostgresql className={iconStyles}/>,
             label: 'PostgreSQL',
         },
         {
